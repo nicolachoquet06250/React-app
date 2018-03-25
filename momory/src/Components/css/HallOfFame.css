@@ -1,0 +1,15 @@
+.hallOfFame {
+    margin-top: 5px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.hallOfFame .date,
+.hallOfFame .guesses {
+    width: 20%;
+    text-align: center;
+}
+
+.hallOfFame tr:nth-child(even) {
+    background: #eee;
+}
